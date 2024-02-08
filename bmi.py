@@ -17,6 +17,7 @@ def  calculate():
        T1="over weight"
     Entry3.delete(0,END)
     Entry3.insert(0,BMI)
+    entry4.delete(0,END)
     entry4.insert(0,T1)
 
 
@@ -37,9 +38,6 @@ entry4.pack(pady=20)
 
 B1 = Button(root, text = "generate", command=calculate,bg="blue",fg="white")
 B1.pack()
-
-
-
 
 
 
